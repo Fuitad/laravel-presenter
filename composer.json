@@ -1,0 +1,28 @@
+{
+    "name": "gocrew/laravel-presenter",
+    "description": "view presenters for laravel.",
+    "keywords": ["presenter","view","laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pascal Schwientek",
+            "email": "pascal@gocrew.io"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "illuminate/support": "~5",
+        "illuminate/console": "~5"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.0",
+        "mockery/mockery": "~0.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "gocrew\\LaravelPresenter\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

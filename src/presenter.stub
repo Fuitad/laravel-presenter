@@ -1,0 +1,9 @@
+<?php namespace {{namespace}};
+
+use gocrew\LaravelPresenter\Presenter;
+
+class {{class}} extends Presenter {
+
+    //
+
+}

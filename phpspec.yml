@@ -1,0 +1,5 @@
+suites:
+  gocrew_suite:
+    namespace: gocrew\LaravelPresenter
+    src_path: src
+    spec_prefix: spec
